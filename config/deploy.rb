@@ -1,4 +1,4 @@
-set :application, 'zerocred'
+set :application, 'zerocred.club'
 set :repo_url, 'git@github.com:zerocred/site.git'
 
 # Branch options
