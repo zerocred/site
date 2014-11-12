@@ -35,6 +35,15 @@
   "require": {
     "php": ">=5.3.2",
     "wordpress/wordpress": "4.0",
+    "wpackagist-theme/casper": "1.1.0",
+    "wpackagist-plugin/akismet": "3.0.3",
+    "wpackagist-plugin/batcache": "1.2",
+    "wpackagist-plugin/backwpup": "3.1.2",
+    "wpackagist-plugin/limit-login-attempts": "1.7.1",
+    "wpackagist-plugin/media-file-renamer": "1.9.4",
+    "wpackagist-plugin/post-thumbnail-editor": "2.4.2",
+    "wpackagist-plugin/wordpress-seo": "1.6.3",
+    "wpackagist-plugin/wp-smushit": "1.6.5.4",
     "fancyguy/webroot-installer": "1.1.0",
     "composer/installers": "v1.0.12",
     "vlucas/phpdotenv": "~1.0.6"

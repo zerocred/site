@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "fc7d3a2d7da22e4cdb80642a5c931457",
+    "hash": "567040fb3a7bb8360df4bd9fc0b7d741",
     "packages": [
         {
             "name": "composer/installers",
@@ -195,6 +195,210 @@
                 "fancyguy/webroot-installer": "1.1.0"
             },
             "type": "webroot"
+        },
+        {
+            "name": "wpackagist-plugin/akismet",
+            "version": "3.0.3",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/akismet/",
+                "reference": "tags/3.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/akismet.3.0.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/akismet": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/akismet/"
+        },
+        {
+            "name": "wpackagist-plugin/backwpup",
+            "version": "3.1.2",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/backwpup/",
+                "reference": "tags/3.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/backwpup.3.1.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/backwpup": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/backwpup/"
+        },
+        {
+            "name": "wpackagist-plugin/batcache",
+            "version": "1.2",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/batcache/",
+                "reference": "tags/1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/batcache.1.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/batcache": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/batcache/"
+        },
+        {
+            "name": "wpackagist-plugin/limit-login-attempts",
+            "version": "1.7.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/limit-login-attempts/",
+                "reference": "tags/1.7.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/limit-login-attempts.1.7.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/limit-login-attempts": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/limit-login-attempts/"
+        },
+        {
+            "name": "wpackagist-plugin/media-file-renamer",
+            "version": "1.9.4",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/media-file-renamer/",
+                "reference": "tags/1.9.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/media-file-renamer.1.9.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/media-file-renamer": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/media-file-renamer/"
+        },
+        {
+            "name": "wpackagist-plugin/post-thumbnail-editor",
+            "version": "2.4.2",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/post-thumbnail-editor/",
+                "reference": "tags/2.4.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/post-thumbnail-editor.2.4.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/post-thumbnail-editor": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/post-thumbnail-editor/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "1.6.3",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/1.6.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/wordpress-seo.1.6.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/wordpress-seo": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-smushit",
+            "version": "1.6.5.4",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wp-smushit/",
+                "reference": "tags/1.6.5.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/wp-smushit.1.6.5.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/wp-smushit": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/wp-smushit/"
+        },
+        {
+            "name": "wpackagist-theme/casper",
+            "version": "1.1.0",
+            "source": {
+                "type": "svn",
+                "url": "http://themes.svn.wordpress.org/casper/",
+                "reference": "1.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://wordpress.org/themes/download/casper.1.1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "http://wordpress.org/themes/casper/"
         }
     ],
     "packages-dev": [],
