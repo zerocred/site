@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f169b320a9b5589593be20a2baf9c19f",
+    "hash": "1d3ac81f9f49d781f1171c1cf3cd7c56",
     "packages": [
         {
             "name": "composer/installers",
@@ -266,6 +266,102 @@
             "time": "2014-10-16 14:50:21"
         },
         {
+            "name": "wp-sync-db/wp-sync-db",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-sync-db/wp-sync-db.git",
+                "reference": "c0475de77ca28891a35726eee7d30f9c0d804ba0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-sync-db/wp-sync-db/zipball/c0475de77ca28891a35726eee7d30f9c0d804ba0",
+                "reference": "c0475de77ca28891a35726eee7d30f9c0d804ba0",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.6"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv2"
+            ],
+            "description": "WP Sync DB eliminates the manual work of migrating a WP database.",
+            "homepage": "https://github.com/wp-sync-db/wp-sync-db",
+            "keywords": [
+                "db",
+                "plugin",
+                "wordpress",
+                "wp-sync-db"
+            ],
+            "time": "2014-08-27 13:55:15"
+        },
+        {
+            "name": "wp-sync-db/wp-sync-db-cli",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-sync-db/wp-sync-db-cli.git",
+                "reference": "28188ea6c4081e5bd322e9c14bbfc4946d5dcb73"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-sync-db/wp-sync-db-cli/zipball/28188ea6c4081e5bd322e9c14bbfc4946d5dcb73",
+                "reference": "28188ea6c4081e5bd322e9c14bbfc4946d5dcb73",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.6"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv2"
+            ],
+            "description": "WP Sync DB CLI Addon",
+            "homepage": "https://github.com/wp-sync-db/wp-sync-db-cli",
+            "keywords": [
+                "cli",
+                "plugin",
+                "wordpress",
+                "wp-sync-db"
+            ],
+            "time": "2014-09-02 16:15:16"
+        },
+        {
+            "name": "wp-sync-db/wp-sync-db-media-files",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-sync-db/wp-sync-db-media-files.git",
+                "reference": "f49c90ff8716b80bfbcc650212fd3f583d06f234"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-sync-db/wp-sync-db-media-files/zipball/f49c90ff8716b80bfbcc650212fd3f583d06f234",
+                "reference": "f49c90ff8716b80bfbcc650212fd3f583d06f234",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.6"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv2"
+            ],
+            "description": "WP Sync DB Media File Addon for WP Sync DB",
+            "homepage": "https://github.com/wp-sync-db/wp-sync-db-media-files",
+            "keywords": [
+                "media",
+                "plugin",
+                "wordpress",
+                "wp-sync-db"
+            ],
+            "time": "2014-09-02 16:43:50"
+        },
+        {
             "name": "wpackagist-plugin/akismet",
             "version": "3.0.3",
             "source": {
@@ -449,7 +545,11 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "wp-sync-db/wp-sync-db": 20,
+        "wp-sync-db/wp-sync-db-media-files": 20,
+        "wp-sync-db/wp-sync-db-cli": 20
+    },
     "prefer-stable": false,
     "platform": {
         "php": ">=5.4"

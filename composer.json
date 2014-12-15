@@ -31,7 +31,10 @@
     "wpackagist-plugin/wp-smushit": "1.6.5.4",
     "fancyguy/webroot-installer": "1.1.0",
     "composer/installers": "v1.0.12",
-    "vlucas/phpdotenv": "~1.0.6"
+    "vlucas/phpdotenv": "~1.0.6",
+    "wp-sync-db/wp-sync-db": "dev-master#c0475de77ca28891a35726eee7d30f9c0d804ba0",
+    "wp-sync-db/wp-sync-db-media-files": "dev-master#f49c90ff8716b80bfbcc650212fd3f583d06f234",
+    "wp-sync-db/wp-sync-db-cli": "dev-master#28188ea6c4081e5bd322e9c14bbfc4946d5dcb73"
   },
   "extra": {
     "installer-paths": {
