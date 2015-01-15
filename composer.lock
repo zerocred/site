@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "831be6f9e79e0d6ce013a146ed9a9e41",
+    "hash": "58850ed1368b4ec0c165c01880d8532a",
     "packages": [
         {
             "name": "composer/installers",
@@ -321,15 +321,15 @@
         },
         {
             "name": "wpackagist-plugin/akismet",
-            "version": "3.0.3",
+            "version": "3.0.4",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/akismet/",
-                "reference": "tags/3.0.3"
+                "reference": "tags/3.0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/akismet.3.0.3.zip",
+                "url": "http://downloads.wordpress.org/plugin/akismet.3.0.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -337,19 +337,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/akismet/"
+            "homepage": "https://wordpress.org/plugins/akismet/"
         },
         {
             "name": "wpackagist-plugin/backwpup",
-            "version": "3.1.2",
+            "version": "3.1.4",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/backwpup/",
-                "reference": "tags/3.1.2"
+                "reference": "tags/3.1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/backwpup.3.1.2.zip",
+                "url": "http://downloads.wordpress.org/plugin/backwpup.3.1.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -357,7 +357,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/backwpup/"
+            "homepage": "https://wordpress.org/plugins/backwpup/"
         },
         {
             "name": "wpackagist-plugin/batcache",
@@ -401,15 +401,15 @@
         },
         {
             "name": "wpackagist-plugin/media-file-renamer",
-            "version": "1.9.4",
+            "version": "1.9.8",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/media-file-renamer/",
-                "reference": "tags/1.9.4"
+                "reference": "tags/1.9.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/media-file-renamer.1.9.4.zip",
+                "url": "http://downloads.wordpress.org/plugin/media-file-renamer.1.9.8.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -417,19 +417,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/media-file-renamer/"
+            "homepage": "https://wordpress.org/plugins/media-file-renamer/"
         },
         {
             "name": "wpackagist-plugin/post-thumbnail-editor",
-            "version": "2.4.2",
+            "version": "2.4.3",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/post-thumbnail-editor/",
-                "reference": "tags/2.4.2"
+                "reference": "tags/2.4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/post-thumbnail-editor.2.4.2.zip",
+                "url": "http://downloads.wordpress.org/plugin/post-thumbnail-editor.2.4.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -437,7 +437,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/post-thumbnail-editor/"
+            "homepage": "https://wordpress.org/plugins/post-thumbnail-editor/"
         },
         {
             "name": "wpackagist-plugin/seriously-simple-podcasting",
@@ -461,15 +461,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "1.6.3",
+            "version": "1.7.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/1.6.3"
+                "reference": "tags/1.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wordpress-seo.1.6.3.zip",
+                "url": "http://downloads.wordpress.org/plugin/wordpress-seo.1.7.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -477,19 +477,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/wordpress-seo/"
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
         },
         {
             "name": "wpackagist-plugin/wp-smushit",
-            "version": "1.6.5.4",
+            "version": "1.7",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wp-smushit/",
-                "reference": "tags/1.6.5.4"
+                "reference": "tags/1.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wp-smushit.1.6.5.4.zip",
+                "url": "http://downloads.wordpress.org/plugin/wp-smushit.1.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -497,7 +497,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/wp-smushit/"
+            "homepage": "https://wordpress.org/plugins/wp-smushit/"
         },
         {
             "name": "wpackagist-theme/casper",
