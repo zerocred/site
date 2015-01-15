@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1d3ac81f9f49d781f1171c1cf3cd7c56",
+    "hash": "831be6f9e79e0d6ce013a146ed9a9e41",
     "packages": [
         {
             "name": "composer/installers",
@@ -91,59 +91,17 @@
             "time": "2014-02-24 04:21:34"
         },
         {
-            "name": "fancyguy/webroot-installer",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fancyguy/webroot-installer.git",
-                "reference": "a2d5c2e149d837e5580a62a91d3c91577aa30d28"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fancyguy/webroot-installer/zipball/a2d5c2e149d837e5580a62a91d3c91577aa30d28",
-                "reference": "a2d5c2e149d837e5580a62a91d3c91577aa30d28",
-                "shasum": ""
-            },
-            "require-dev": {
-                "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "3.7.*"
-            },
-            "type": "composer-installer",
-            "extra": {
-                "class": "FancyGuy\\Composer\\WebrootInstaller"
-            },
-            "autoload": {
-                "psr-0": {
-                    "FancyGuy\\Composer\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Steve Buzonas",
-                    "email": "steve@fancyguy.com",
-                    "homepage": "http://www.stevebuzonas.com"
-                }
-            ],
-            "description": "A composer installer for libraries that live in an application webroot.",
-            "homepage": "http://fancyguy.github.com/webroot-installer/",
-            "time": "2013-03-15 17:51:14"
-        },
-        {
             "name": "johnpbloch/wordpress",
-            "version": "4.0.1",
+            "version": "4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "bbc5e56449860b183aafbe7df97ca137594073a4"
+                "reference": "fced41fbfeb6b6a1f48f505426da0cb392d44274"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/bbc5e56449860b183aafbe7df97ca137594073a4",
-                "reference": "bbc5e56449860b183aafbe7df97ca137594073a4",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/fced41fbfeb6b6a1f48f505426da0cb392d44274",
+                "reference": "fced41fbfeb6b6a1f48f505426da0cb392d44274",
                 "shasum": ""
             },
             "require": {
@@ -167,7 +125,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2014-11-20 17:45:59"
+            "time": "2014-12-18 18:31:41"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -480,6 +438,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/post-thumbnail-editor/"
+        },
+        {
+            "name": "wpackagist-plugin/seriously-simple-podcasting",
+            "version": "1.8",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/seriously-simple-podcasting/",
+                "reference": "tags/1.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/seriously-simple-podcasting.1.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/seriously-simple-podcasting/"
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
